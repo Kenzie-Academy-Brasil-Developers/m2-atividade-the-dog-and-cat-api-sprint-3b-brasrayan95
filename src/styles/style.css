@@ -1,0 +1,32 @@
+body {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.animal_box {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    width: 250px;
+}
+
+.animal_photo > img{
+    width: 300px;
+    height: 300px;
+}
+
